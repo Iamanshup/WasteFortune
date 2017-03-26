@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/pari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Can Donate Your Old Electronics to Our NGO's"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:id="@+id/ngo1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:descendantFocusability="blocksDescendants"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageV"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/a1" />
+
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="E-Paarisara"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ngo2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:descendantFocusability="blocksDescendants"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageVie"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/a2" />
+
+            <TextView
+                android:id="@+id/textVi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Samarthanam"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

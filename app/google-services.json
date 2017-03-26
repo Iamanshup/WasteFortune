@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "94420661686",
+    "firebase_url": "https://wastefortune.firebaseio.com",
+    "project_id": "wastefortune",
+    "storage_bucket": "wastefortune.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94420661686:android:6419af3ba7f56569",
+        "android_client_info": {
+          "package_name": "in.thegeekybaniya.wastefortune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94420661686-ir7od56kpa3jkfbegnl5i54btbf02chs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.thegeekybaniya.wastefortune",
+            "certificate_hash": "e24169c47360e2350c2a5c1e57a78bdf91f15860"
+          }
+        },
+        {
+          "client_id": "94420661686-2esrq3rr1kersnsp4800rqam6e6t387j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXRE9Zub9XO0Izi5cFcWalBR-Kd-O6rDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94420661686-2esrq3rr1kersnsp4800rqam6e6t387j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
