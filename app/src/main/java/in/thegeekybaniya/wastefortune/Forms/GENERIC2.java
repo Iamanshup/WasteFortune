@@ -48,7 +48,6 @@ public class GENERIC2 extends AppCompatActivity {
         etProd= (EditText) findViewById(R.id.etProd);
         etDesc= (EditText) findViewById(R.id.etDesc);
         etPrice= (EditText) findViewById(R.id.etPrice);
-        etType= (EditText) findViewById(R.id.etType);
 
         btnPush= (Button) findViewById(R.id.btnPush);
 

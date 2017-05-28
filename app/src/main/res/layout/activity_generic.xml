@@ -7,6 +7,30 @@
     android:layout_height="match_parent"
     tools:context="in.thegeekybaniya.wastefortune.Forms.GENERIC">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Product Pictures" />
+    </RelativeLayout>
+
     <EditText
         android:id="@+id/etSeller"
         android:layout_width="match_parent"
@@ -33,13 +57,10 @@
         android:scrollHorizontally="false"
         android:text="Description" />
 
-    <EditText
-        android:id="@+id/etType"
+    <Spinner
+        android:id="@+id/spinnerType"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Type" />
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/etPrice"
